@@ -1,0 +1,45 @@
+   #divTrigger{
+    width: 154px;
+    display: block;
+    left:0px;
+  } 
+	 #divTrigger a:link,#divTrigger a:visited{
+	  display: inline;
+	  float: left;
+	  display: block;
+	  cursor: pointer;
+	 	text-decoration: none; /* hilangkan garis bawah pada link */
+	 	font: bold 85% Arial, Helvetica, sans-serif;
+    border: 1px solid #333;
+    -moz-border-radius:2px;
+    -webkit-border-radius:3px;
+	 	margin-left:5px; /* memberi jarak antar link */
+	 	padding: 1px 4px; /* menjadikan link seperti kotak */
+	  background-color: #000;
+	  color: #FFF;
+	 }
+	 /* link yang dilalui oleh mouse dan element dengan class='selected' akan mempunyai efek yang sama */
+	 #divTrigger a:hover,#divTrigger a:active,.selected{ 
+	    background-color: #FC0;
+	    color: #FFF;
+	 }
+
+	 #divContent{
+	 	margin-top:4px;
+	 	padding: 4px;
+	 }
+	 #divContent div{ 
+	 	/* semua div di dalam element dengan id='divContent' akan di sembunyikan sementara */
+	 	display:none
+	 }	
+
+   /* caption link teks */
+	 .t{
+      width:340px; position:absolute; height:38px; top: 584px; left:24px;	 
+      padding: 5px 10px; 
+      font-size:123.1%; border-top: 1px solid #000; border-bottom: 1px solid #666;
+      background: #000;filter:alpha(opacity=75);-moz-opacity:.75;opacity:.75;
+	 	  display:block
+	 } 
+.t a{text-decoration: none;color:#FC0; font-weight:bold}
+.t a:hover{color:#FFF; text-decoration:none}

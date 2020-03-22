@@ -1,0 +1,378 @@
+@import url(superfish.css);
+@import url(fancybox.css);
+@import url(tabs.css);
+@import url(headline.css);
+@import url(ticker.css);
+@import url(tipsy.css);
+
+                                  
+html, body {border: 0; margin: 0; padding: 0;}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background: url(../images/bg_repeat.jpg) repeat 0 0;
+  line-height: 130%;
+ 	width: 100%;
+ 	min-width: 970px;
+}
+
+
+/***** Common Formatting *****/
+p {margin: 0; padding: 0 0 18px 0;}
+ul {list-style: none; margin: 0; padding: 0;}
+
+/***** Links *****/
+a {
+  	text-decoration: none;
+  	color: #0066B3;
+}
+
+a:hover {text-decoration: none; color: #820000;}
+
+/***** Main Layout ****/
+#container {
+ 	width: 100%;
+ 	height: 100%;
+ 	text-align: center;/* IE fix to center the page */
+ 	background: url(../images/bg.jpg) repeat-x 0 0;
+	position: relative;
+}
+
+#wrapper {
+ 	width: 960px;
+ 	background: url(../images/bg_content.jpg) repeat-y top left;
+ 	margin: 0 auto;/* center the page in Firefox */
+ 	text-align: left;
+	position: relative;
+}
+
+/***** Top Page *****/
+#top {
+	height: 90px;
+	padding: 0 25px;
+  background: #F4F4EA url(../images/bg.jpg) repeat-x 0 0;
+}
+
+#top .logo {
+	width: 360px;
+  height: 36px;
+  float: left;
+  clear: left;
+  margin-top: 45px;
+	margin-left: 20px;
+  background: url(../images/logo.jpg) no-repeat;
+}
+
+#top .logo a span {
+	color: #66FF00;
+}
+
+#top .logo a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #ff6600;
+	font-size: 1.7em;
+	padding-top: 8px;
+	padding-left: 85px;
+	line-height: 25px;
+}
+
+#top .logo a:hover {
+	color: white;
+}
+
+/* Motto */
+#top ul.motto {
+  height: 36px;
+	width: auto;
+  float: right;
+ 	clear: right;
+ 	font-weight: bold;
+	line-height: 36px;
+	margin-right: 50px;
+ 	color: white;
+ 	font-size: 80%;
+	text-align: center;
+ 	background: url(../images/login_r.jpg) no-repeat right 0;
+	padding-right: 40px;
+}
+
+#top ul.motto li.left {
+  background: url(../images/login_l.jpg) no-repeat left 0;
+ 	height: 36px;
+	width: 40px;
+	padding: 0;
+	margin: 0;
+ 	display: block;
+	float: left;
+}
+
+#top ul.motto li {
+ 	text-align: left;
+ 	padding: 0 6px;
+	display: block;
+	float: left;
+	height: 36px;
+ 	background: url(../images/login_bg.jpg) repeat-x 0 0;
+}
+
+
+/***** HEADER *****/
+#header {
+	width: 100%;
+	height: 214px;
+	background: url(../images/header.jpg) no-repeat;
+	position: relative;
+	color: white;
+	font-family: "Trebuchet MS",Tahoma, Arial, sans-serif;
+}
+
+#header .intro {
+	padding: 190px 0 0 17px;
+}
+
+#header .intro p {
+	font-size: 1.0em;
+	padding: 0;
+	margin: 0;
+	color: #333;
+}        
+
+#header .rssicon {
+	position: absolute;
+	left: 900px;
+	top: 180px;
+}
+
+/***** Search Box *****/
+#header #searchform {
+	position: absolute;
+	z-index: 2;
+	left: 605px;
+	top: 180px;
+	width: 205px;
+}
+      
+#header #searchform .searchField {
+	border: none;
+	background: transparent;
+	width: 158px;
+	height: 23px;
+	line-height: 23px;
+}
+
+#header #searchform .searchSubmit {
+	background: transparent url(../images/searchButton.jpg) no-repeat 0 0;
+	width: 40px;
+	height: 26px;
+	border: none;
+	cursor: pointer;
+}
+
+/***** Content *****/
+#content {
+	display: block;
+	float: left;
+	clear: left;
+	width: 630px;
+	padding: 20px;
+	margin: 0 0 30px 0;
+	clear: both;
+	text-align: justify;
+	font-size: 0.9em;
+}
+
+#content p {
+	padding: 5px 0  5px 15px;
+}
+
+#content ul, #content ol {
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	margin-left: 5px;
+}
+
+#content ul li {
+	background: url(../images/bullet.jpg) 0 3px no-repeat;
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+
+#content a img {
+  border: none;/*remove border for linked images*/
+  background-color: #fff;
+	padding: 2px;
+	margin: 3px 5px 3px 0;
+	border: 1px solid #0066B3;
+	float: left;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+#content .garisbawah {
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+#content .judul {
+	font-family: Georgia;
+	font-size: 14px;
+	line-height: 170%;
+	font-weight: bold;
+	color: #EE1C24;
+}
+#content .tanggal {
+	font-size: 10px;
+	line-height: 135%;
+	font-style: italic;
+}
+#content .posting {
+	font-size: 11px;
+}
+#content .kategori {
+	font-family: Georgia;
+	line-height: 175%;
+	font-weight: bold;
+	padding-left: 10px;
+}
+#content .komentar {
+	font-weight: bold;
+}
+#content .judulhead {
+	font-size: 1.2em;
+	font-variant: small-caps;
+	color: #65C80B;
+	font-weight: bold;
+}
+#content .judul_head {
+	font-family: Georgia;
+	font-size: 12px;
+}
+#content .image {
+	background-color: #fff;
+	padding: 2px;
+	margin: 3px 5px 3px 0;
+	border: 1px solid #CCC;
+	float: left;
+}
+#content-kiri{
+	float: left;
+	width: 370px;
+}
+#content-kanan{
+	float: right;
+	width: 260px;
+}
+#content-detail{
+	float: left;
+	width: 630px;
+}
+input, select, textarea{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#kotakjudul{
+	background: url(../images/mainnav-bg.gif) repeat-x;
+	margin: 0px;
+	padding: 5px;
+	border-top: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+  border-bottom: none;          
+}
+#kotakisi{
+	padding: 4px;
+	border: 1px solid #CCC;
+	text-align: justify;
+}
+
+/***** Sidebar *****/
+#sidebar {
+	display: block;
+	float: left;
+	width: 255px;
+	padding-left: 15px;
+	margin-bottom: 30px;
+	font-size: 0.8em;
+	background: url(../images/sidebar_bg.jpg) no-repeat 0 0;
+}
+
+#sidebar h2 {
+	font-size: 1.4em;
+	font-variant: small-caps;
+	color: #65C80B;
+	border-bottom: 1px solid #ccc;
+	width: 255px;
+	font-weight: bold;
+	margin: 30px 0 10px 0;
+}
+
+#listsidebar{
+	width:250px;
+	overflow:hidden;
+	border:solid 1px #DEDEDE;
+	padding-bottom: 13px;
+}
+
+#listsidebar .news-title{
+	font-weight:bold;
+	margin-bottom:4px;
+	font-size:12px;
+	padding-left:5px;
+	padding-top: 5px;
+}
+#listsidebar .news-text{
+	font-size:12px;
+	color:#333;
+}
+#listsidebar .news-title2{
+	font-weight:bold;
+	padding-left:80px;
+	font-size:12px;
+}
+
+/***** Footer *****/
+#footer {
+	clear: both;
+	width: 960px;
+	height: 150px;
+	background: #F4F4EA url(../images/footer_bg.jpg) repeat-x 0 0;
+	color: #ccc;
+	font-size: 0.9em;
+}
+
+#footer .foot_l {
+	background: url(../images/footer_l.jpg) no-repeat left top;
+	width: 80px;
+	height: 74px;
+	float: left;
+}
+
+#footer .foot_r {
+	background: url(../images/footer_r.jpg) no-repeat right top;
+	width: 26px;
+	height: 74px;
+	float: right;
+	clear: none;
+}
+
+#footer .foot_content {
+	display: block;
+	clear: none;
+	width: 800px;
+	float: left;
+	clear: none;
+	padding: 5px 0 0 0;
+	text-align: center;
+}
+
+#footer .foot_content p {
+	margin: 0;
+	padding: 0;
+}
+
+#footer ul li {
+	display: inline;
+}

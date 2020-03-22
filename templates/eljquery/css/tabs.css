@@ -1,0 +1,64 @@
+
+#tabsview {
+    display: block;
+    float: left;
+    width:auto;
+	  font-size:10px;
+}
+.panel {
+    border: solid 1px #65C80B;
+    border-top: none;
+    background-color: #f3f3f3;
+    padding: 3px 0 0 3px;
+    width: auto;
+    overflow: auto;
+    clear: left;
+}
+.tab_bdr {
+    padding: 0px;
+    width: auto;
+    border: 0px;
+    border: 1px solid #65C80B;
+    height: 4px;
+    margin:0px;
+    background: #65C80B;
+    clear: left;
+    font-size: 0px;
+}
+.tab {
+	-moz-border-radius-topleft:6px;
+	-moz-border-radius-topright:6px;
+    font-size: 12px;
+    background:#999;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    height: 19px;
+    padding-top: 3px;
+    margin: 0px;
+    width:auto;
+    float: left;
+    text-decoration: none;
+  	font-weight:bold;
+}
+.tab_sel {
+    -moz-border-radius-topleft:6px;
+	  -moz-border-radius-topright:6px;
+	  font-weight:bold;
+    font-size: 12px;
+    background: #65C80B;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #65C80B;
+    height: 19px;
+    padding-top: 3px;
+    margin: 0px;
+    width:auto;
+    float: left;
+    text-decoration: none;
+}
+.tabjudul {
+	font-size:14px;
+}

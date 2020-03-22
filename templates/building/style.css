@@ -1,0 +1,261 @@
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #993300;
+	margin: 0px;
+	background-image: url(images/latar.jpg);
+}
+#wrapper {
+	background-image: url(images/background.jpg);
+	background-repeat: repeat-y;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*Top Menu*/
+#wrapper #container #menu {
+	width: 780px;
+	position: relative;
+	top: 138px;
+	left: 10px;
+	margin: 0;
+	padding: 0;
+	background: url(images/bgmenu.gif) repeat-x;
+	clear: both;
+	margin: 0px;
+}
+#container #menu ul {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 40px;
+}
+#container #menu ul li {
+	list-style-type: none;
+	position: relative;
+	float: left;
+}
+#container #menu ul li a{
+	display: block;
+	float: left;
+	height: 22px;
+	width: auto;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	padding-bottom: 0px;
+	border-right: 1px solid #1F1010;
+	border-left: 1px solid #793E3E;
+}
+#container #menu ul li a:hover {
+	color: #ff0;
+	background-color: #810101;
+}
+#container #menu ul li ul {
+	display: none;
+	
+}
+#container #menu ul li:hover ul {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 32px;
+	z-index: 1;
+}
+#container #menu ul li:hover ul li a {
+	display: block;
+	left: 0px;
+	color: #ff0;
+	background-color: #320000;
+	width: 200px;
+	height: 14px;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+	border: 1px solid #320000;
+	padding: 7px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#container #menu ul li:hover ul li a:hover {
+	left: 0px;
+	color: #FFFFFF;
+	border: 1px solid #810101;
+	background-color: #810101;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+}
+
+
+/* Header */
+#wrapper #header {
+	background-image: url(images/header.jpg);
+	height: 170px;
+	width: 800px;
+}
+#wrapper #spacecontent {
+	float: left;
+	width: 10px;
+}
+#wrapper #leftcontent {
+	float: left;
+	width: 165px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #680102;
+	color: #FFFFFF;
+}
+
+#wrapper #middlecontent {
+	float: left;
+	width: 400px;
+	padding-right: 5px;
+	padding-left: 10px;
+	line-height: 155%;
+	text-align: justify;
+}
+
+#wrapper #rightcontent {
+	float: left;
+	width: 165px;
+	padding-right: 5px;
+	padding-left: 10px;
+	background-color: #680102;
+	color: #FFFFFF;
+}
+
+ul {
+	padding-left: 12px;
+	margin-left: 0px;
+}
+#wrapper #clearer {
+	clear: both;
+}
+#wrapper #footer {
+	font-size: 10px;
+	color: #FFFFFF;
+	background-image: url(images/footer.jpg);
+	text-align: center;
+	height: 26px;
+	width: 800px;
+	line-height: 275%;
+}
+
+
+
+#wrapper #middlecontent a:link {
+	color: #EE1C24;
+	text-decoration: none;
+}
+#wrapper #middlecontent a:visited {
+	color: #EE1C24;
+	text-decoration: none;
+}
+#wrapper #middlecontent a:hover {
+	color: #6600CC;
+	text-decoration: underline;
+}
+
+#wrapper #leftcontent a:link {
+	color: #FF0;
+	text-decoration: none;
+}
+#wrapper #leftcontent a:visited {
+	color: #FF0;
+	text-decoration: none;
+}
+#wrapper #leftcontent a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#wrapper #rightcontent a:link {
+	color: #FF0;
+	font-weight:bold;
+	text-decoration: none;
+}
+#wrapper #rightcontent a:visited {
+	color: #FF0;
+	font-weight:bold;
+	text-decoration: none;
+}
+#wrapper #rightcontent a:hover {
+	color: #FFFFFF;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+
+#menuheader {
+width:100%; 
+height:30px; 
+background-color:#999;
+}
+
+
+
+.image {
+	background-color: #fff;
+	padding: 2px;
+	margin: 3px 5px 3px 0;
+	border: 1px solid #ddc688;
+	float: left;
+}
+.judul {
+	font-family: Georgia;
+	font-size: 14px;
+	line-height: 170%;
+	font-weight: bold;
+	color: #EE1C24;
+}
+.date {
+	font-size: 10px;
+	line-height: 135%;
+	font-style: italic;
+}
+.posting {
+	font-size: 11px;
+}
+.judul_head {
+	font-family: Georgia;
+	font-size: 12px;
+}
+.kategori {
+	font-family: Georgia;
+	line-height: 175%;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.komentar {
+	font-weight: bold;
+}
+input, select, textarea{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #993300;
+}
+input#shout{
+	font-size: 10px;
+}
+.shout {
+	font-size: 10px;
+	line-height: 135%;
+}
+.shoutdate {
+	font-size: 10px;
+	line-height: 135%;
+  padding-left: 40px;
+	color: #EE1C24;
+}
+
